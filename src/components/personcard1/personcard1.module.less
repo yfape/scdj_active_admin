@@ -1,0 +1,75 @@
+.content {
+    width: 100%;
+    height: 250px;
+    background-color: #ef985d;
+    border-radius: 16px;
+
+    .z4 {
+        width: 95%;
+        position: relative;
+        top: -80px;
+    }
+
+    .info {
+        height: 250px;
+        padding: 40px 30px;
+
+        * {
+            color: #fff;
+        }
+        .mininfo {
+            height: 110px;
+        }
+    }
+}
+
+.taskblock {
+    height: 80px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+
+    .taskimg {
+        width: 80px;
+        height: 80px;
+        border-radius: 16px;
+        transition: 0.3 all;
+        background: rgba(255, 255, 255, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        [role='img'] {
+            font-size: 36px;
+            transition: 0.2s all linear;
+        }
+    }
+
+    .taskinfo {
+        width: 80px;
+        height: 80px;
+        text-align: center;
+
+        .title {
+            margin-top: 10px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 16px;
+        }
+        .num {
+            height: 40px;
+            line-height: 40px;
+            font-family: '微软雅黑';
+            font-weight: bold;
+            font-size: 36px;
+        }
+    }
+}
+
+.taskblock:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+
+    [role='img'] {
+        transform: scale(1.1);
+    }
+}

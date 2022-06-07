@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="300">
+    <!-- <rect width="600" height="300" style="fill:#F2F6FE"/> -->
+    <rect width="220" height="300" style="fill:#EF985D;"/>
+
+    <line x1="0" y1="30" x2="220" y2="30" style="stroke:#fff;stroke-width:0.1"/>
+    <line x1="0" y1="60" x2="220" y2="60" style="stroke:#fff;stroke-width:0.1"/>
+    <line x1="0" y1="90" x2="220" y2="90" style="stroke:#fff;stroke-width:0.1"/>
+    <line x1="0" y1="120" x2="220" y2="120" style="stroke:#fff;stroke-width:0.1"/>
+    <line x1="0" y1="150" x2="220" y2="150" style="stroke:#fff;stroke-width:0.1"/>
+    <line x1="0" y1="180" x2="220" y2="180" style="stroke:#fff;stroke-width:0.1"/>
+    <line x1="0" y1="210" x2="220" y2="210" style="stroke:#fff;stroke-width:0.1"/>
+    <line x1="0" y1="240" x2="220" y2="240" style="stroke:#fff;stroke-width:0.1"/>
+    <line x1="0" y1="270" x2="220" y2="270" style="stroke:#fff;stroke-width:0.1"/>
+
+    <line x1="190" y1="270" x2="190" y2="250" style="stroke:#fff;stroke-width:0.5"/>
+    <line x1="185" y1="270" x2="185" y2="260" style="stroke:#fff;stroke-width:0.5"/>
+
+    <line x1="30" y1="0" x2="30" y2="300" style="stroke:#fff;stroke-width:0.1"/>
+    <line x1="60" y1="0" x2="60" y2="300" style="stroke:#fff;stroke-width:0.1"/>
+    <line x1="150" y1="0" x2="100" y2="300" style="stroke:#fff;stroke-width:0.1"/>
+</svg>
+

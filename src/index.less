@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'wenquanyi';
+    src: url('./assets/fonts/wqy_wmh.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Fira Code', 'wenquanyi';
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+img {
+    -webkit-user-drag: none;
+}
+
+.isphone {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .isphone {
+        display: block;
+    }
+    .app {
+        display: none;
+    }
+}
+
+.base-padding {
+    padding: 40px 30px;
+}

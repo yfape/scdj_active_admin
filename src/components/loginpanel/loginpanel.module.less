@@ -1,0 +1,77 @@
+@import '~antd/lib/style/themes/default.less';
+.panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -50px;
+    margin: auto;
+    width: 950px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: @box-shadow-base;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .exhitions {
+        background-color: #f2f6fe;
+        float: left;
+        width: 400px;
+        margin-right: 100px;
+        height: 100%;
+        text-align: left;
+
+        img {
+            position: relative;
+            left: 130px;
+            top: 5%;
+            height: 90%;
+        }
+    }
+
+    .form {
+        float: left;
+        width: 450px;
+        height: 450px;
+        padding: 0px 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+
+        .mlogo {
+            text-align: right;
+            height: 20px;
+            position: relative;
+            top: -20px;
+        }
+        .mlogo > img {
+            height: 40px;
+        }
+
+        .welcome {
+            font-size: 30px;
+            margin: 10px 0;
+        }
+        .minlogo {
+            height: 25px;
+            line-height: 25px;
+            margin-bottom: 12px;
+            font-weight: bold;
+            font-size: 16px;
+
+            img {
+                height: 100%;
+                transform: scale(1.4);
+            }
+        }
+        .forget {
+            text-align: right;
+        }
+        .forget > span {
+            cursor: pointer;
+        }
+        .forget > span:hover {
+            color: @primary-color;
+        }
+    }
+}

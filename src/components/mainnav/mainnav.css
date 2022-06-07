@@ -1,0 +1,11 @@
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #fff !important;
+}
+.ant-menu-item-selected,
+.ant-menu-item-selected a {
+    color: #000 !important;
+}
+.ant-menu-item a,
+.ant-menu {
+    color: #abaab1;
+}
